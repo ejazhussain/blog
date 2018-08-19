@@ -1,10 +1,14 @@
 <div class="card post-card">
   <div class="card-image post-thumbnail">
-    <figure class="image is-3by2">        
-						<% if (post.featured_image){ %>
-							<img src="<%- post.featured_image %>">
-							<% } %>						
-    </figure>
+      <a href="<%- url_for(post.path) %>">
+
+          <figure class="image is-3by2">
+            <% if (post.featured_image){ %>
+              <img src="<%- post.featured_image %>">
+              <% } %>
+          </figure>
+    
+        </a>
   </div>
   <div class="card-content">
     <div class="content">
