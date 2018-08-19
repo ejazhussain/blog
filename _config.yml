@@ -22,7 +22,7 @@ timezone: Europe/London
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://wwww.ejazhussain.com
+url: https://www.ejazhussain.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
