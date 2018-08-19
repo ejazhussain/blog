@@ -1,10 +1,14 @@
 <div class="card post-card">
   <div class="card-image post-thumbnail">
-    <figure class="image is-3by2">        
-						<% if (post.featured_image){ %>
-							<img src="<%- post.featured_image %>">
-							<% } %>						
-    </figure>
+    <a href="<%- url_for(post.path) %>">
+
+      <figure class="image is-3by2">
+        <% if (post.featured_image){ %>
+          <img src="<%- post.featured_image %>">
+          <% } %>
+      </figure>
+
+    </a>
   </div>
   <div class="card-content">
     <div class="content">
@@ -21,9 +25,11 @@
 
         <div class="recent-post-item-content">
           <time class="post-meta__date">
-              <i class="far fa-calendar-alt" aria-hidden="true"></i> <%= date(post.date, 'MMM D, YYYY') %></time>
-          <div class="post-meta__tag-list">              
-              <%- partial('post/tag',{post:post}) %>
+            <i class="far fa-calendar-alt" aria-hidden="true"></i>
+            <%= date(post.date, 'MMM D, YYYY') %>
+          </time>
+          <div class="post-meta__tag-list">
+            <%- partial('post/tag',{post:post}) %>
           </div>
         </div>
       </div>
