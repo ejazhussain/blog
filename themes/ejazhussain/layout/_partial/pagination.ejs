@@ -1,0 +1,21 @@
+<div class="container pagination-container">
+    <% if (page.total > 1) { %>
+        <nav class="pagination is-rounded" role="navigation" aria-label="pagination">
+            <% if (page.prev != 0) { %>
+                <a class="pagination-previous" rel="prev" href="<%= url_for(page.prev_link) %>">
+                    <span class="icon icon-chevron-left"></span>
+                    <span class="text">Previous</span>
+                </a>
+            <% } else { %>
+                <a class="pagination-previous" title="This is the first page" disabled>Previous</a>
+
+            <% } %>             
+            <% if (page.next != 0) { %>
+                        <a class="pagination-next" rel="next" href="<%= url_for(page.next_link) %>">
+                            <span class="text">Next</span>
+                            <span class="icon icon-chevron-right"></span>
+                        </a>
+            <% } %>
+        </nav>
+        <% } %>
+</div>

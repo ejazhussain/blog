@@ -1,0 +1,11 @@
+<% if (post.categories && post.categories.length){ %>
+    <%
+    var cats = [];
+    post.categories.forEach(function(cat){
+        cats.push('<a  class="post-category" href="'+url_for(cat.path)+'"><span class="tag is-warning">'+ cat.name + '</span></a>');
+    });
+    %>
+        <div class='cats'>
+            <%- cats.join(', ') %>
+        </div>
+    <% } %>

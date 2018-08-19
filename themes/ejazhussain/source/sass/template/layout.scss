@@ -1,0 +1,40 @@
+section.hero-root {
+    background-image: url("/img/banner-pc.jpg");
+    min-height: 178px;
+    // background-size: contain;
+    .hero-body .title,.subtitle{
+        color:#fff;
+    }
+}
+
+.main-seciton{
+    .main-container{
+        background: white;
+        padding: 1.5rem;
+
+    }
+}
+
+.home-section {
+    .posts-list {
+        max-width: 1150px;
+        margin: 0 auto;
+        .card {
+            height: 500px;
+            @include until ($tablet) {
+                height: 100%
+            }
+        }
+    }
+    .pagination-container {
+        padding: 2rem 0;
+    }
+}
+.article-section{    
+    .article-content {
+        background: $white;
+    }
+    .article-sidebar{
+        background: $white;
+    }
+}

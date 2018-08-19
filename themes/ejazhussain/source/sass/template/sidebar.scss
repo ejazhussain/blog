@@ -1,0 +1,26 @@
+.article-container .post-toc li.post-toc-item a.post-toc-link {
+    display: block;
+    padding-left: .2rem;
+    border-right: 3px solid transparent;
+    text-decoration: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+
+}
+.article-aside .post-toc li.post-toc-item a.post-toc-link.active {
+    border-right-color: #009d92;
+    background: #00c4b6;
+    color: #fff;
+}
+.article-aside .post-toc li{
+    list-style-type:none;
+}
+.aside-anchors{
+   
+    @include until ($desktop){
+        display: none;
+    }
+}

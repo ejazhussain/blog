@@ -1,0 +1,7 @@
+.deploy_git
+.bak*
+node_modules/
+design/
+deploy/
+public/
+.vscode/

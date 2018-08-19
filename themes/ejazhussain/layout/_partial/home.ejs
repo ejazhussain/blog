@@ -1,0 +1,33 @@
+<section class="hero is-medium is-bold hero-root">
+  <div class="hero-body">
+    <div class="container has-text-centered">
+      <h1 class="title">
+        Hello, I'm Ejaz
+      </h1>
+      <h2 class="subtitle">
+        Lead SharePoint Developer
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="section home-section">
+  <div class="container posts-list">
+
+    <div class="columns">
+      <% page.posts.each(function(post,index){
+        index = index + 1;
+        %>        
+        <div class="column is-one-third">
+          <%- partial('post', {post: post}) %>
+        </div>  
+        <% if(index % 3 == 0) { %>
+        </div>
+        <div class="columns">
+        <% } %> 
+      <% }) %>
+    </div>       
+  </div>  
+   <%- partial('_partial/pagination', {type: 'page'}) %>
+</section>

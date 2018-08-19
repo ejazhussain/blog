@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+body {
+    min-height: 100%;
+    color: #4c4948;
+    line-height: 2;
+    background: #f2f2f2; //font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    margin-bottom: 1.1rem
+}
+
+h1 {
+    font-size: 2.0rem;
+}
+
+h2 {
+    font-size: 1.5rem;    
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+a {
+    color: $primary;
+    cursor: pointer;
+    text-decoration: none;
+}
