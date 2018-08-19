@@ -89,3 +89,27 @@
         }
     }
 }
+
+@media screen and (max-width: 600px) {
+    #tag {
+        .article-sort-title {
+            padding-left: 1.6rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 200px;           
+        }
+        .article-sort-title::before{
+            left: 1px;
+        }
+        .article-sort-title::after{
+            left: 7px;
+        }
+
+        .article-sort {
+            padding-left: 1.2rem;
+            border-left: 2px solid #a4d8fa;
+            margin-left: 7px;
+        }
+    }
+}
