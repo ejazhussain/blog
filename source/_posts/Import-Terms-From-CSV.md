@@ -1,5 +1,5 @@
 ---
-title: Import-Terms-From-CSV
+title: SharePoint Online:Import Terms From CSV
 date: 2018-08-27 18:21:56
 tags: [Sharepoint TermStore, PnP PowerShell]
 category:
