@@ -5,7 +5,7 @@ tags: [Sharepoint TermStore, PnP PowerShell]
 category:
 featured_image: post-featured.png
 ---
-## Import Terms to Term Set from CSV using SharePoint Online PnP PowerShell
+## Import Terms to Term Set from CSV using PnP PowerShell
 
 <strong>Requirement:</strong> Import terms to term set in SharePoint Online from a CSV file using PowerShell.
 
@@ -16,7 +16,7 @@ Here is my sample csv file. [Click here](groups.csv) to download sample csv file
 
 
 
-<strong>Assumptions:</strong> Make sure TermSets are presents in the term store. Probably i could also add code to check if term already exist etc. But for now i am keep it simple.
+<strong>Assumptions:</strong> Make sure TermSets are presents in the term store. Probably i could also add code to check if term already exist etc. But for now i am keeping it simple.
 
 
 
@@ -95,7 +95,7 @@ foreach ($key in $termsHashTable.Keys) {
 
 ```
 
-## Import Terms to Term Set from CSV using SharePoint Online CSOM PowerShell
+## Import Terms to Term Set from CSV using CSOM PowerShell
 
 ```PowerShell
 #Load SharePoint CSOM Assemblies
