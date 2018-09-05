@@ -9,14 +9,14 @@ featured_image: post-featured.png
 
 <strong>Requirement:</strong> Import terms to term set in SharePoint Online from a CSV file using PowerShell.
 
-Here is my sample csv file. [Click here](groups.csv) to download sample csv file
+Here is my sample csv file. [Click here](groups.csv) to download.
 
 {% asset_img samplecsv.png %}
 <!-- ![ScreenShot](samplecsv.png) -->
 
 
 
-<strong>Assumptions:</strong> Make sure TermSets are presents in the term store. Probably i could also add code to check if term already exist etc. But for now i am keeping it simple.
+<strong>Assumptions:</strong> Make sure TermSets are present in the term store. Probably i could also add code to check if term already exist etc. But for now i am keeping it simple.
 
 
 

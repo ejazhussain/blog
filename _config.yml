@@ -53,6 +53,10 @@ highlight:
   auto_detect: false
   tab_replace:
 
+#Anlaytics
+google_analytics: UA-69679122-1
+
+
 # Category & Tag
 default_category: uncategorized
 category_map:

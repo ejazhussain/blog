@@ -25,22 +25,14 @@
   <%- favicon_tag(config.favicon) %>
   <%- feed_tag(config.feed.path, {title: config.title}) %>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <%- open_graph({
-    twitter_id: theme.twitter,
-    google_plus: theme.google_plus, 
-    fb_admins: theme.fb_admins, 
-    fb_app_id: theme.fb_app_id}) %>
-
-  
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" /> 
-  
-
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />   
   <%- css('bulma.css') %>
-  
- 
+
   <script>
     function setLoadingBarProgress(num) {
       document.getElementById('loading-bar').style.width=num+"%";
     }    
   </script>  
+  <%- partial('_partial/gtag') %>
+
 </head>
