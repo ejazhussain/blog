@@ -35,8 +35,10 @@ section.hero-root {
     background-image: linear-gradient(to bottom, #f2f2f2,#c0c0c0);
     .article-content {
         background: $white;
+        border-radius: 5px 0px 0px 5px;
     }
     .article-sidebar {
         background: $white;
+        border-radius: 0px 5px 5px 0px;
     }
 }
