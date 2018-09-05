@@ -11,7 +11,7 @@
         max-width: 300px;
 
         @include from ($desktop and $tablet) {
-            max-width: 17%
+            max-width: 16%
         }
         
     }
