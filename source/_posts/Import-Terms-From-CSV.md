@@ -2,7 +2,7 @@
 title: SharePoint Online:Import Terms From CSV
 date: 2018-08-27 18:21:56
 tags: [Sharepoint TermStore, PnP PowerShell]
-category:
+category: [PowerShell]
 featured_image: post-featured.png
 ---
 ## Import Terms to Term Set from CSV using PnP PowerShell
@@ -12,7 +12,7 @@ featured_image: post-featured.png
 Here is my sample csv file. [Click here](groups.csv) to download.
 
 {% asset_img samplecsv.png %}
-<!-- ![ScreenShot](samplecsv.png) -->
+
 
 
 
@@ -97,7 +97,7 @@ foreach ($key in $termsHashTable.Keys) {
 
 ## Import Terms to Term Set from CSV using CSOM PowerShell
 
-```PowerShell
+``` PowerShell
 #Load SharePoint CSOM Assemblies
 Add-Type -Path "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "C:\Program Files\Common Files\Microsoft Shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
