@@ -8,14 +8,14 @@ featured_image: post-featured.png
 
 ## SharePoint Online Integration with Azure App Insights
 
-Recently I had a chance to work on one of the projects to monitor custom events from SharePoint Online pages.
+Recently I had a chance to work on one of the project to monitor custom events from SharePoint Online pages.
 
 Keeping in mind above scenario, there are two platform comes in my mind
 
 * Azure App Insights
 * Google Analytics
 
-I really liked Azure App Insights. Azure Application Insight is more than custom dimensions, metrics and page views. This is an extensible Application Performance Management (APM) service.
+I really liked Azure App Insights. Azure Application Insight is more than just custom dimensions, metrics and page views. It is an extensible Application Performance Management (APM) service.
 
 ### Application Insights monitors
 
@@ -74,7 +74,6 @@ $.fn.isExternal = function (link) {
     return (link !== host);
 };
 
-
 ```
 
 4. The next step is to inject this piece of JavaScript in every page in your Office 365 portal. There are plenty of ways to do this. I am going to create a custom action.
@@ -94,9 +93,9 @@ Here are some of Azure Application Insights API Methods. For more information vi
 6. TrackTrace   
 7. TrackDependency
 
-I hope this helps and give a starting point to implement complex scenarios
+I hope this helps and gives a starting point to implement complex scenarios.
 
-Happy logging to Azure Application Insights
+
 
 
 
