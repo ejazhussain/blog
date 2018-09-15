@@ -6,7 +6,7 @@
 brand: EJAZHUSSAIN
 title: Ejaz Hussain
 subtitle: ""
-description: ""
+description: "I am a senior sharepoint developer focused on SharePoint, Office 365, PowerShell and Azure Technologies."
 keywords:
   - Azure
   - Office 365
@@ -133,6 +133,11 @@ feed:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 
+browsersync:
+  logLevel: "warn"
+  ghostMode:
+    scroll: true
+  instanceName: "uniqueString"
 
 
 prism_plugin:

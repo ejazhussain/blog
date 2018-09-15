@@ -5,7 +5,7 @@ tags: [Sharepoint TermStore, PnP PowerShell]
 category: [PowerShell]
 featured_image: post-featured.png
 ---
-## Import Terms to Term Set from CSV using PnP PowerShell
+## Import Terms to Term Set from CSV using PnP PowerShell.
 
 <strong>Requirement:</strong> Import terms to term set in SharePoint Online from a CSV file using PowerShell.
 
