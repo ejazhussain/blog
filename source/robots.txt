@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /categories/
+Allow: /tags/
+Allow: /about/
+
+Disallow: /css/
+Disallow: /font/
+Disallow: /js/
+Disallow: /sass/
+Disallow: /img/
+Disallow: /imnages/
+
+Sitemap: https://www.ejazhussain.com/sitemap.xml
