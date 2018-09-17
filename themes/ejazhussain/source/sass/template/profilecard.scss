@@ -12,6 +12,11 @@
 
 .profile-card {
     background: #06a763;
+    max-width: 300px;
+    @include until($desktop) {
+        max-width: 100%;
+    }
+
     figure {
         margin: 0px auto;
     }
@@ -35,7 +40,10 @@
         }
     }
     .infos {
-        max-width: 300px;
+        // max-width: 300px;
+        @include until($desktop) {
+            max-width: 100%;
+        }
         text-align: center;
         ul.profile-list {
             li {
@@ -62,13 +70,15 @@
         }
     }
     .links {
-        max-width: 300px;
+        // max-width: 300px;
+        @include until($desktop) {
+            max-width: 100%;
+        }
         margin-top: 20px;
-        height: 100%;    
-        text-align: center;    
+        height: 100%;
+        text-align: center;
         .social {
             color: white;
         }
     }
 }
-
