@@ -25,7 +25,7 @@ In this post, I would like to show you following two scenarios
 1. How you can configure Azure Application Insight within SharePoint modern site using SPFX Application Customizer.
 2. How to add custom javascript snippet
 
-Before i jump into more detail i would like to give credit to **Chris O Brien**. He has written wonderful article on. [Use an SPFx Application Customizer to add JavaScript (e.g. header) to every page in a site](https://www.sharepointnutsandbolts.com/2017/06/SPFx-Application-Customizer-Global-JS-Page-Header.html)
+Before i jump into more detail i would like to give credit to **Chris O' Brien**. He has written wonderful article on. [Use an SPFx Application Customizer to add JavaScript (e.g. header) to every page in a site](https://www.sharepointnutsandbolts.com/2017/06/SPFx-Application-Customizer-Global-JS-Page-Header.html)
 
 ### Step 1 : Create Application Customizer empty project 
 
