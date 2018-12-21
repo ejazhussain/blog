@@ -1,3 +1,7 @@
+# html lang
+# ---------------
+language: en
+
 # Search
 search: 
   enable: true
@@ -47,15 +51,16 @@ toc: true
 # Open share 
 share: true
 
-jsonContent:
-  searchLocal: true
-  searchGoogle: false
-  posts:
-    title: true
-    text: true
-    content: true
-    categories: false
-    tags: false
+# jsonContent:
+#   searchLocal: true
+#   searchGoogle: false
+#   posts:
+#     title: true
+#     text: true
+#     description: true
+#     content: true
+#     categories: false
+#     tags: false
 
 # use url, not username
 social:

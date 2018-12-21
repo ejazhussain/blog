@@ -2,6 +2,7 @@
 title: SharePoint Online Integration with Azure App Insights
 date: 2018-09-09 16:12:00
 tags: [Azure Application Insight, Azure, Analytics, SharePoint Online]
+description: SharePoint Online Integration with Azure App Insights
 category:
 featured_image: post-featured.png  
 ---

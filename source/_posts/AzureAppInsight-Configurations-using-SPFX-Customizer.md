@@ -1,5 +1,7 @@
 ---
+layout: post
 title: SPFX Application Customizer with App Insight
+language: English
 tags:
   - Modern SharePoint
   - Azure App Insights

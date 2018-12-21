@@ -91,8 +91,13 @@ autoprefixer:
 
 # Generator json content
 jsonContent:
-  meta: false
-  keywords: false # (english, spanish, polish, german, french, italian, dutch, russian, portuguese, swedish)
+  meta: true
+  title: true
+  subtitle: true
+  description: true
+  author: true
+  url: true
+  keywords: true # (english, spanish, polish, german, french, italian, dutch, russian, portuguese, swedish)
   pages:
     title: true
     slug: false
@@ -117,12 +122,13 @@ jsonContent:
     link: false
     permalink: true
     excerpt: false
-    keywords: false
+    keywords: true
     text: false
     raw: false
     content: true
     categories: false
     tags: false
+  
 
 feed:
   type: atom

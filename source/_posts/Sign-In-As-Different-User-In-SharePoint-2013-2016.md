@@ -2,6 +2,7 @@
 title: Sign In As Different User In SharePoint 2013/2016
 date: 2018-08-16 15:04:16
 tags: [SharePoint administration, SharePoint 2013, SharePoint 2016]
+description: Sign In As Different User In SharePoint On-prem in 2013 and 2016
 categories: 
 featured_image: post-featured.png  
 ---

@@ -1,38 +1,65 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <%
-    var title = page.title;
-    if (is_archive()) {
-      title = 'Archives';
-      if (is_month())
-        title += ': ' + page.year + '/' + page.month;
-      else if (is_year())
-        title += ': ' + page.year;
-    }
-    else if (is_category())
-      title = 'Category: ' + page.category;
-    else if (is_tag())
-      title = 'Tag: ' + page.tag;
+  var description = '';
+  if (page.description) {
+      description = page.description;
+  } else if (config.description) {
+      description = config.description;
+  } else if (page.excerpt) {
+      description = strip_html(page.excerpt).replace(/^\s*/, '').replace(/\s*$/, '');
+  } else if (page.content) {
+      description = strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+  }
   %>
-  <title><% if (title) { %><%= title %> | <% } %><%= config.title %></title>
-  <meta name="description" content="<%= config.description %>" />
-  <meta name="keywords" content="<%=(config.keywords||[]).join(',') %>" />
+  
+  <%
+  var pageKeywords = [];
+
+  pageKeywords = (config.keywords || []).join(',')
+  
+  if (page.tags && page.tags.data) 
+  {
+    pageKeywords = page.tags.data.map(function(tag) {return tag.name;}).join(',')
+  }    
+  %>
+  
+  <%
+ var title = [];
+ if (page.current > 1) title.push(__('page', page.current));
+ if (page.title) title.push(page.title);
+ if (page.category) title.push(page.category);
+ if (page.tag) title.push(page.tag);
+ if (page.archive) {
+     if (page.year) title.push(__('archive_b', page.year + (page.month ? '/' + page.month : '')));
+     else title.push(__('archive_a'));
+ }
+ title.push(config.title);
+ %>
+  <title>
+    <%= title.join(' | ') %>
+  </title>
+  <% if (description) { %>
+  <meta name="description" content="<%= description %>" />
+  <% } %>
+  <meta name="keywords" content="<%= pageKeywords %>" />
   <meta name="HandheldFriendly" content="True" />
   <meta name="apple-mobile-web-app-capable" content="yes">
   <%- favicon_tag(config.favicon) %>
   <%- feed_tag(config.feed.path, {title: config.title}) %>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />   
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <%- css('bulma.css') %>
 
   <script>
     function setLoadingBarProgress(num) {
-      document.getElementById('loading-bar').style.width=num+"%";
+      document.getElementById('loading-bar').style.width = num + "%";
     }    
-  </script>  
+  </script>
   <%- partial('_partial/gtag') %>
   <%- autoCanonical(config, page) %>
 
