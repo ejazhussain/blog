@@ -4,7 +4,7 @@ body {
     min-height: 100%;
     color: #4c4948;
     line-height: 2;
-    background: #f2f2f2; //font-family: 'Ubuntu', sans-serif;
+    //background: #f2f2f2; //font-family: 'Ubuntu', sans-serif;
 }
 
 h1,
@@ -30,7 +30,7 @@ h3 {
 }
 
 a {
-    color: $primary;
+    color: $blue;
     cursor: pointer;
     text-decoration: none;
 }

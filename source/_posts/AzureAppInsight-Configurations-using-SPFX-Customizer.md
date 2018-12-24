@@ -29,17 +29,17 @@ In this post, I would like to show you following two scenarios
 
 Before i jump into more detail i would like to give credit to **Chris O' Brien**. He has written wonderful article on. [Use an SPFx Application Customizer to add JavaScript (e.g. header) to every page in a site](https://www.sharepointnutsandbolts.com/2017/06/SPFx-Application-Customizer-Global-JS-Page-Header.html)
 
-### Step 1 : Create Application Customizer empty project 
+## Step 1 : Create Application Customizer empty project 
 
 Here are wonderful tutorials available by microsoft [Getting Started with SPFX Application Customizer](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/extensions/get-started/build-a-hello-world-extension)
 
-### Step2 : Install below npm package and import into your solution
+## Step2 : Install below npm package and import into your solution
 
 ``` 
 👉 npm install applicationinsights-js
 ```
 
-#### Prerequisite
+**Prerequisite**
 
 1. Make sure you have valid Azure App Insight key
 2. Create a custom property called 'instrumentationKey' and add valid Azure App Insight Key under **serve.json** file under config folder

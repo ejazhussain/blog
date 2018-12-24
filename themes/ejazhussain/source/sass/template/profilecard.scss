@@ -11,7 +11,7 @@
 }
 
 .profile-card {
-    background: #06a763;
+    background: $link;
     max-width: 300px;
     @include until($desktop) {
         max-width: 100%;

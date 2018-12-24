@@ -18,7 +18,7 @@ Keeping in mind above scenario, there are two platform comes in my mind
 
 I really liked Azure App Insights. Azure Application Insight is more than just custom dimensions, metrics and page views. It is an extensible Application Performance Management (APM) service.
 
-### Application Insights monitors
+## Application Insights monitors
 
 here are few of the examples of different type of data being analyzed by Azure App Insight
 
@@ -29,7 +29,7 @@ here are few of the examples of different type of data being analyzed by Azure A
 
 for complete list, visit [What is Application Insights?](https://docs.microsoft.com/en-us/azure/application-insights/app-insights-overview)
 
-### Solution
+## Solution
 
 Here are the steps to track custom events in the page. One of the scenario for custom events could be to track event every time user click on the external link. 
 

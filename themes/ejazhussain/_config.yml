@@ -44,10 +44,13 @@ less:
 node_sass:  
   outputStyle: compressed
 
+
 # Article
 
 # Open toc 
 toc: true
+
+
 # Open share 
 share: true
 
