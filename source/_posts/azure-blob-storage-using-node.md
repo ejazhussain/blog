@@ -13,7 +13,7 @@ This article will provide how-to-guide to work with Azure Blob storage using Nod
 Currently Microsoft Azure Storage SDK.v2 is available as stable version. SDK.v10 is still in preview and which has more features compare to SKD.v2. [Go to Storage SDK v10 for JavaScript (In preview)](https://github.com/Azure/azure-storage-js)
 In SDK.v2 you can find different operations for Blob, Queue , File,Table in callback style. See below.
 
-## Azure Storage SDK.v2 basic Features
+## Azure Storage SDK.v2 basic features
 
 **Blobs**
     Create/Delete Containers
