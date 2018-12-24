@@ -1,7 +1,7 @@
 ---
 title: Azure blob storage operations using Node.js
 date: 2018-12-23 14:50:51
-description: "How to peroform different Azure blob storage operations using Node.js, Blob containers, Blob metadata, Blob properties"
+description: "How to perform different Azure blob storage operations using Node.js, Blob containers, Blob metadata, Blob properties"
 tags: [Azure, Azure Blog Storage, Node JS]
 category:
 featured_image: post-featured.png
@@ -10,10 +10,10 @@ featured_image: post-featured.png
 
 This article will provide how-to-guide to work with Azure Blob storage using Node.js
 
-Currently Microsoft Azure Storage SDK.v2 is avaialble as stable version. SDK.v10 is still in preview and which has more features compare to SKD.v2. [Go to Storage SDK v10 for JavaScript (In preview)](https://github.com/Azure/azure-storage-js)
+Currently Microsoft Azure Storage SDK.v2 is available as stable version. SDK.v10 is still in preview and which has more features compare to SKD.v2. [Go to Storage SDK v10 for JavaScript (In preview)](https://github.com/Azure/azure-storage-js)
 In SDK.v2 you can find different operations for Blob, Queue , File,Table in callback style. See below.
 
-## Azure Storage SDK.v2 basic beatures
+## Azure Storage SDK.v2 basic Features
 
 **Blobs**
     Create/Delete Containers
