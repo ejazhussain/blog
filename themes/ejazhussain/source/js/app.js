@@ -184,16 +184,16 @@ var customSearch;
 
 	function getHitokoto() {
 		const $hitokoto = $('#hitokoto');
-		if($hitokoto.length === 0) return;
+		if ($hitokoto.length === 0) return;
 		const url = 'http://api.hitokoto.us/rand?length=80&encode=jsc&fun=handlerHitokoto';
-		$('body').append('<script	src="%s"></script>'.replace('%s',url));
+		$('body').append('<script	src="%s"></script>'.replace('%s', url));
 		window.handlerHitokoto = (data) => {
 			$hitokoto
-				.css('color','transparent')
+				.css('color', 'transparent')
 				.text(data.hitokoto)
-			if(data.source) $hitokoto.append('<cite> ——  %s</cite>'.replace('%s',data.source));
-			else if(data.author) $hitokoto.append('<cite> ——  %s</cite>'.replace('%s',data.author));
-			$hitokoto.css('color','white');
+			if (data.source) $hitokoto.append('<cite> ——  %s</cite>'.replace('%s', data.source));
+			else if (data.author) $hitokoto.append('<cite> ——  %s</cite>'.replace('%s', data.author));
+			$hitokoto.css('color', 'white');
 		}
 	}
 
@@ -232,7 +232,7 @@ var customSearch;
 				imagePath: "/images/"
 			});
 		}
-		else if (SEARCH_SERVICE === 'hexo') {			
+		else if (SEARCH_SERVICE === 'hexo') {
 			customSearch = new HexoSearch({
 				imagePath: "/images/"
 			});
@@ -263,12 +263,44 @@ var customSearch;
 
 	});
 
+	//Image Zoom In and Zoom Out on Click
 
-	
+	// $(".post-content > img").click(function () {
+	// 	$(this).toggle(
+	// 		 $(this).animate({ width: "50%" }, 500),
+	// 		 $(this).animate({ width: "100%" }, 500)
+	// 	);
+	// });
 
 
 
-	
+
+	// $('.post-content > img').width("50%");
+
+	// $('.post-content > img').mouseover(function () {
+
+	// 	$(this).css("cursor", "pointer");
+
+	// });
+
+	$(".post-content p > img, .post-content li > img").click(function () {
+		$(this).toggleClass("zoomIn");
+	});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 })(jQuery);
 

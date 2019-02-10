@@ -3,8 +3,7 @@
 body {
     min-height: 100%;
     color: #4c4948;
-    line-height: 2;
-    //background: #f2f2f2; //font-family: 'Ubuntu', sans-serif;
+    line-height: 2; //background: #f2f2f2; //font-family: 'Ubuntu', sans-serif;
 }
 
 h1,
@@ -22,7 +21,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.5rem;    
+    font-size: 1.5rem;
 }
 
 h3 {
@@ -34,3 +33,39 @@ a {
     cursor: pointer;
     text-decoration: none;
 }
+
+//Image Zoom In Zoom Out 
+.post-content p > img, .post-content li > img{
+    width:50%;
+    cursor:zoom-in;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.zoomIn {
+    
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+    width: 100% !important;
+    cursor:zoom-out;
+}
+.image-caption{
+    display: block;
+    font-style: italic;
+    font-size: 0.9em;
+    font-weight: 400;
+    font-weight: 500;
+}
+
