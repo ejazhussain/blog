@@ -263,29 +263,11 @@ var customSearch;
 
 	});
 
-	//Image Zoom In and Zoom Out on Click
+	
 
-	// $(".post-content > img").click(function () {
-	// 	$(this).toggle(
-	// 		 $(this).animate({ width: "50%" }, 500),
-	// 		 $(this).animate({ width: "100%" }, 500)
-	// 	);
+	// $(".post-content p > img, .post-content li > img").click(function () {
+	// 	$(this).toggleClass("zoomIn");
 	// });
-
-
-
-
-	// $('.post-content > img').width("50%");
-
-	// $('.post-content > img').mouseover(function () {
-
-	// 	$(this).css("cursor", "pointer");
-
-	// });
-
-	$(".post-content p > img, .post-content li > img").click(function () {
-		$(this).toggleClass("zoomIn");
-	});
 
 
 

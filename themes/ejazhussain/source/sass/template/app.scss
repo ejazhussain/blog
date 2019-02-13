@@ -35,9 +35,8 @@ a {
 }
 
 //Image Zoom In Zoom Out 
-.post-content p > img, .post-content li > img{
-    width:50%;
-    cursor:zoom-in;
+.post-content p > img, .post-content li > img{    
+    
     transition: all .5s ease-in-out;
     border-radius: 5px;
     border: 1px solid #ddd;
@@ -54,13 +53,13 @@ a {
     height: auto;
     vertical-align: middle;
 }
-.zoomIn {
+// .zoomIn {
     
-    border-radius: 5px;
-    transition: all .5s ease-in-out;
-    width: 100% !important;
-    cursor:zoom-out;
-}
+//     border-radius: 5px;
+//     transition: all .5s ease-in-out;
+//     width: 100% !important;
+//     cursor:zoom-out;
+// }
 .image-caption{
     display: block;
     font-style: italic;
