@@ -20,7 +20,7 @@ timezone: Europe/London
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url:  https://www.ejazhussain.com #http://localhost:4000/
+url: https://www.ejazhussain.com # http://localhost:4000/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -148,7 +148,7 @@ browsersync:
 
 prism_plugin:
   mode: 'realtime'    # realtime/preprocess
-  theme: 'okaidia'
+  theme: 'coy'
   line_number: true    # default false
   #custom_css: 'path/to/your/custom.css'     # optional
 

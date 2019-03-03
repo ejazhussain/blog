@@ -45,4 +45,10 @@ To Build pagination i have tried below 3 options:
 
 
 ## Source Code
-🔗 [SPFX Image Gallery GitHub Repo](https://github.com/ejazhussain/SPFX-ImageGallery)
+
+<a href="https://github.com/ejazhussain/SPFX-ImageGallery" class="is-primary button is-medium github">
+    <span class="icon is-medium">
+      <i class="fab fa-github"></i>
+    </span>
+    <span>Explore solution on GitHub</span>
+</a>

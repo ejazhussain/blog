@@ -25,7 +25,11 @@
     <div class="container">
       <div class="content has-text-centered">
         <p>©
-          <strong>EjazHussain.com</strong> 2018
+          <strong>EjazHussain.com</strong>
+          <%
+           var currentYear = new Date().getFullYear();
+          %>
+          <span><%= currentYear %></span>
           <br>
           <!-- <a href="/faq" class="">FAQ</a> | 
               <a href="/terms-of-service" class="">Terms of Service</a> | 
@@ -46,7 +50,7 @@
             <a href="https://www.instagram.com/mythril_io/" target="_blank" class="icon is-medium">
               <i class="fab fa-instagram fa-lg"></i>
             </a> -->
-          </p>         
+          </p>
       </div>
     </div>
   </footer>
