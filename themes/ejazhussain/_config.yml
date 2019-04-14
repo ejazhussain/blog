@@ -41,8 +41,9 @@ widgets:
 less:
   compress: true
 
-node_sass:  
-  outputStyle: compressed
+node_sass:
+  includePaths:
+   - node_modules
 
 
 # Article
