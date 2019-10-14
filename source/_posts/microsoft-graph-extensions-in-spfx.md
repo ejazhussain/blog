@@ -52,7 +52,9 @@ Here we retreive existing Open Graph Extension
 ![Get Graph Extension](get-graph-extension.png)
 
 **3. PATCH**
-Here we update existing Open Graph Extension
+Here we update existing Open Graph Extension. There is a possibility that you might to update only a single property. So the trick here is to first simply get existing Graph Extension values and then update the required property using PATCH call.
+![Patch Graph Extension](patch-graph-extension.png)
 
 **4. DELETE**
 Delete Open Graph Extension
+![Delete Graph Extension](delete-graph-extension.png)
