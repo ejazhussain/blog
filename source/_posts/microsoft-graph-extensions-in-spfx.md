@@ -9,7 +9,7 @@ category:
 featured_image: post-featured.png
 ---
 
-Main aim of this post is to show how we can use Micrsoft Graph Extensions with SPFX to provide ability for user to configure consistent UI experience across different devices and apps.
+Main aim of this post is to show how we can use Microsoft Graph Extensions with SPFX to provide ability for user to configure consistent UI experience across different devices and apps.
 
 As Microsoft Graph provide a single API endpoint that give you access to data and insights from office 365, azure and other platforms. 
 You can also extend Microsoft Graph using your own application data.
@@ -39,7 +39,7 @@ There are two types of Microsoft Graph Extension available
 
 > In this demo, I will be using Graph Open Extension
 
-### Implemenation Detail
+### Implementation Detail
 
 Application contain 4 tabs as below
 
@@ -53,19 +53,19 @@ You need to provide a JSON body of an openTypeExtension, with the following requ
 
 ![Create Graph Extension Schema](create-graph-extension-schema.png)
 
-One thing to make sure is that your extension name should be unique. Recomendation is to use a reverse domain name system (DNS) format that is dependent on your own domain, for example, in my case, **com.ejazhussain.settings**. 
+One thing to make sure is that your extension name should be unique. Recommendation is to use a reverse domain name system (DNS) format that is dependent on your own domain, for example, in my case, **com.ejazhussain.settings**. 
 
 > Do not use the Microsoft domain (Com.Microsoft or Com.OnMicrosoft) in an extension name.
 
 
 **2. GET**
-Here we can retreive existing Open Graph Extension by its unique extension ID. In my case it will be **"com.ejazhussain.settings"**.
+Here we can retrieve existing Open Graph Extension by its unique extension ID. In my case it will be **"com.ejazhussain.settings"**.
 In term of choosing unique name for your 
 
 ![Get Graph Extension](get-graph-extension.png)
 
 **3. PATCH**
-Here we will update existing Open Graph Extension. There is a possibility that you might want to update only a single property. So the trick here is that you need to get existing Graph Extension values first and then update the required property using PATCH call.
+Here we will update existing Open Graph Extension. There is a possibility that you might want to update only a single property. So, the trick here is that you need to get existing Graph Extension values first and then update the required property using PATCH call.
 ![Patch Graph Extension](patch-graph-extension.png)
 
 **4. DELETE**
@@ -86,7 +86,7 @@ Here are the content of custom Graph service
 This is how you can call above Graph service from your component to Create Graph Extension. Similar way you can call GET,POST,DELETE methods.
 <script src="https://gist.github.com/ejazhussain/0467bd80e158f5c4b224c1b9a5815d5a.js"></script>
 
-You can find complete souce code at the follwoing GitHub Repo
+You can find complete source code at the following GitHub Repo
 
 <a href="https://github.com/ejazhussain/react-msgraph-extension" class="is-primary button is-medium github">
     <span class="icon is-medium">
