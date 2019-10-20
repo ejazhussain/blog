@@ -14,7 +14,8 @@ Main aim of this post is to show how we can use Microsoft Graph Extensions with 
 As Microsoft Graph provide a single API endpoint that give you access to data and insights from office 365, azure and other platforms. 
 You can also extend Microsoft Graph using your own application data.
 
-You can directly add custom properties to Graph Resources for example, <strong>User</strong>, <strong>Group</strong>, <strong>Message</strong> etc. See following table for supported resources 
+You can directly add custom properties to Graph Resources for example, <strong>User</strong>, <strong>Group</strong>, <strong>Message</strong> etc. See following table for supported resources. 
+
 
 | Resource                | Open extensions | Schema extensions |
 |-------------------------|-----------------|-------------------|
@@ -29,7 +30,7 @@ You can directly add custom properties to Graph Resources for example, <strong>U
 | Personal contact        | GA              | GA                |
 | User                    | GA              | GA                |
 
-There are two types of Microsoft Graph Extension available 
+There are two types of Microsoft Graph Extensions available 
 
 ### Open Extensions
 - Its provide a way to add custom untyped data directly to specific resource

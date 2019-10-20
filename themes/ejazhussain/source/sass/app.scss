@@ -210,6 +210,9 @@ Article
       figure {
         img {
           max-width: 70%;
+          @include until($desktop) {
+            max-width: 100%;
+          }
         }
       }
     }
