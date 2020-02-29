@@ -4,9 +4,7 @@ date: 2019-02-08 16:56:23
 tags: [SPFX, Office UI Fabric]
 description: Image Gallery with Taxonomy filter, Typed Search and Pagination
 categories: 
-featured_image: post-featured.png  
 ---
-## SPFX Image Gallery with filtering
 
 This post describe a SPFX application which implement an image gallery with taxonomy base filtering and typed search. This application also implement pagination.
 

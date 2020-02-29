@@ -6,7 +6,6 @@ tags: [Azure, Azure Blog Storage, Node JS]
 category:
 featured_image: post-featured.png
 ---
-## Azure blob storage operations using Node.js
 
 This article will provide how-to-guide to work with Azure Blob storage using Node.js
 

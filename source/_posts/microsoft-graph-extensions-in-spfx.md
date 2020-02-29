@@ -6,7 +6,6 @@ tags:
      - Microsoft Graph
      - SPFX
 category:
-featured_image: post-featured.png
 ---
 
 Main aim of this post is to show how we can use Microsoft Graph Extensions with SPFX to provide ability for user to configure consistent UI experience across different devices and apps.

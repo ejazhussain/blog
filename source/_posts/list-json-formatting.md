@@ -9,8 +9,6 @@ category:
 featured_image: post-featured.png
 ---
 
-## SharePoint Modern List Formatting Using JSON
-
 Recently I had a chance to explore SharePoint modern list formatting using JSON. I must say it is fun and powerful feature to build highly customized UI right from out of the box list without using custom code solution.
 
 If you are looking to customize list column or row UI then here are very useful [Samples](https://github.com/SharePoint/sp-dev-list-formatting) available which will give you a good place to start.

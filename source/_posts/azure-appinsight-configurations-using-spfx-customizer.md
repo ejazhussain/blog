@@ -12,11 +12,7 @@ description:
   SharePoint Modern Pages
 date: 2018-12-16 18:53:19
 category:
-featured_image: post-featured.png 
 ---
-
-
-## SPFX Application Customizer with Azure App Insight and Custom Script
 
 Previously i have explained how you can configure Azure App Insight in SharePoint Online classic mode. 
 

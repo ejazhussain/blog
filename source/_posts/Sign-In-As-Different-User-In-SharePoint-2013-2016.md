@@ -4,10 +4,7 @@ date: 2018-08-16 15:04:16
 tags: [SharePoint administration, SharePoint 2013, SharePoint 2016]
 description: Sign In As Different User In SharePoint On-prem in 2013 and 2016
 categories: 
-featured_image: post-featured.png  
 ---
-
-## Sign In As Different User Option
 
 I recently had to sign in as a test user on a SharePoint 2013 development environment, but I wasn’t able to locate the Sign In As Different User link that had been present in SharePoint 2010.
 

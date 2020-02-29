@@ -4,11 +4,8 @@ date: 2018-09-09 16:12:00
 tags: [Azure Application Insight, Azure, Analytics, SharePoint Online]
 description: SharePoint Online Integration with Azure App Insights
 category:
-featured_image: post-featured.png  
+
 ---
-
-## SharePoint Online Integration with Azure App Insights
-
 Recently I had a chance to work on one of the project to monitor custom events from SharePoint Online pages.
 
 Keeping in mind above scenario, there are two platform comes in my mind

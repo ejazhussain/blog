@@ -7,9 +7,7 @@ tags:
     - Workflow
     - SharePoint Online
 category:
-featured_image: post-featured.png
 ---
-## Approval process using Microsoft Flow and SharePoint Online
 
 If you are looking to build an approval workflow using Microsoft Flow, then here are simple steps which will help you to create one.
 

@@ -65,7 +65,7 @@ section.hero-root {
     margin: 0 auto;
 
     .card {
-      height: 500px;
+      height: 330px;
 
       @include until($tablet) {
         height: 100%;
@@ -79,6 +79,7 @@ section.hero-root {
 }
 
 .article-section {
+
   //background: #fff;
   //background-image: linear-gradient(to bottom, #f2f2f2,#c0c0c0);
   .article-content {
@@ -93,8 +94,8 @@ section.hero-root {
 }
 
 //Image Zoom In Zoom Out
-.post-content p > img,
-.post-content li > img {
+.post-content p>img,
+.post-content li>img {
   transition: all 0.5s ease-in-out;
   border-radius: 5px;
   border: 1px solid #ddd;
@@ -210,6 +211,7 @@ Article
       figure {
         img {
           max-width: 70%;
+
           @include until($desktop) {
             max-width: 100%;
           }
@@ -290,6 +292,7 @@ Profile card
   }
 
   .infos {
+
     // max-width: 300px;
     @include until($desktop) {
       max-width: 100%;
@@ -327,6 +330,7 @@ Profile card
   }
 
   .links {
+
     // max-width: 300px;
     @include until($desktop) {
       max-width: 100%;
@@ -603,6 +607,7 @@ Search
           text-decoration: none;
 
           &:hover {
+
             span,
             .digest,
             .icon {
@@ -671,6 +676,7 @@ Search
     z-index: 1;
   }
 }
+
 .u-search-input {
   border: 1px solid #ddd;
 }
@@ -679,6 +685,23 @@ Search
 Post
 ******************************************************/
 .post-card {
+  height: 330px;
+
+  .card-header {    
+    
+    background-color:whitesmoke;        
+    padding: .5rem;    
+    height: 188px;
+    display: flex;
+    justify-content: center;    
+    align-items: center;   
+
+    .card-post-title {
+      text-align: center;
+      
+    }
+  }
+
   .post-thumbnail {
     padding: 4px;
     max-width: 100%;
@@ -878,8 +901,10 @@ Sidebar
 
 .article-aside {
   // padding: 1.5rem 1.5rem;
-  background-color: #f5f5f5; /* For browsers that do not support gradients */
-  background-image: linear-gradient(#f5f5f5, #fff); /* Standard syntax (must be last) */
+  background-color: #f5f5f5;
+  /* For browsers that do not support gradients */
+  background-image: linear-gradient(#f5f5f5, #fff);
+  /* Standard syntax (must be last) */
 
   // .aside-anchors{
   //     max-width: 10.5rem;
