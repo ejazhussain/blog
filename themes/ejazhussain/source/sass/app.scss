@@ -687,18 +687,21 @@ Post
 .post-card {
   height: 330px;
 
-  .card-header {    
-    
-    background-color:whitesmoke;        
-    padding: .5rem;    
+  .card-header {
+
+    background-color: whitesmoke;
+    padding: .5rem;
     height: 188px;
     display: flex;
-    justify-content: center;    
-    align-items: center;   
+    justify-content: center;
+    align-items: center;
 
     .card-post-title {
       text-align: center;
-      
+
+      .title.is-5 {
+        font-size: 1.40rem;
+      }
     }
   }
 

@@ -12,7 +12,6 @@
     "hexo-autoprefixer": "^2.0.0",
     "hexo-browsersync": "^0.3.0",
     "hexo-deployer-git": "^2.0.0",
-    "hexo-featured-image": "^0.3.0",
     "hexo-generator-archive": "^1.0.0",
     "hexo-generator-category": "^1.0.0",
     "hexo-generator-feed": "^2.0.0",
