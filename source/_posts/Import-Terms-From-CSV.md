@@ -3,8 +3,11 @@ title: SharePoint Online:Import Terms From CSV
 date: 2018-08-27 18:21:56
 tags: [Sharepoint TermStore, PnP PowerShell]
 description: SharePoint Online:Import Terms From CSV file
-category: [PowerShell]
-featured_image: post-featured.png
+categories: [PowerShell]
+summary: This post detail about how to import terms to term set in SharePoint Online from a CSV file using PowerShell.
+img: /images/post/Import-Terms-From-CSV.jpg
+cover: true
+coverImg: /images/postcover/postcover-3.jpg
 ---
 
 <strong>Requirement:</strong> Import terms to term set in SharePoint Online from a CSV file using PowerShell.

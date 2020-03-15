@@ -5,8 +5,11 @@ description: SharePoint Modern List Formatting Using JSON
 tags:
     - Modern SharePoint List
     - JSON Formatting
-category:
-featured_image: post-featured.png
+categories: Modern SharePoint 
+summary: How to use Microsoft Graph Extensions with SPFX to provide ability for user to configure consistent UI experience across different devices.
+img: /images/post/list-json-formatting.jpg
+cover: true
+coverImg: /images/postcover/postcover-3.jpg
 ---
 
 Recently I had a chance to explore SharePoint modern list formatting using JSON. I must say it is fun and powerful feature to build highly customized UI right from out of the box list without using custom code solution.

@@ -3,7 +3,11 @@ title: SharePoint Framework -  Image Gallery
 date: 2019-02-08 16:56:23
 tags: [SPFX, Office UI Fabric]
 description: Image Gallery with Taxonomy filter, Typed Search and Pagination
-categories: 
+categories: SharePoint Framework 
+summary: SPFX application which implement an image gallery with taxonomy base filtering and typed search. This application also implement pagination.
+img: /images/post/spfx-image-gallery.jpg
+cover: true
+coverImg: /images/postcover/postcover-3.jpg
 ---
 
 This post describe a SPFX application which implement an image gallery with taxonomy base filtering and typed search. This application also implement pagination.

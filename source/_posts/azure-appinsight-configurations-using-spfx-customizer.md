@@ -3,16 +3,20 @@ layout: post
 title: SPFX Application Customizer with App Insight
 language: English
 tags:
-  - Modern SharePoint
   - Azure App Insights
-  - SPFX
-  - Application Customizer
+  - SPFX  
 description: 
   Azure App Insight configuration using SPFX Application customizer in
   SharePoint Modern Pages
 date: 2018-12-16 18:53:19
-category:
+categories: SharePoint Framework 
+summary: How you can configure Azure Application Insight within SharePoint modern site using SPFX Application Customizer.
+img: /images/post/azure-appinsight-configurations-using-spfx-customizer.jpg
+cover: true
+# coverImg: /images/postcover/postcover-3.jpg
 ---
+
+
 
 Previously i have explained how you can configure Azure App Insight in SharePoint Online classic mode. 
 

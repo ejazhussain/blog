@@ -3,8 +3,11 @@ title: Azure blob storage operations using Node.js
 date: 2018-12-23 14:50:51
 description: "How to perform different Azure blob storage operations using Node.js, Blob containers, Blob metadata, Blob properties"
 tags: [Azure, Azure Blog Storage, Node JS]
-category:
-featured_image: post-featured.png
+categories: Microsoft Graph
+summary: How to use Microsoft Graph Extensions with SPFX to provide ability for user to configure consistent UI experience across different devices.
+img: /images/post/azure-blob-storage-using-node.jpg
+cover: true
+coverImg: /images/postcover/postcover-3.jpg
 ---
 
 This article will provide how-to-guide to work with Azure Blob storage using Node.js

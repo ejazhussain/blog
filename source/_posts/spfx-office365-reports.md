@@ -3,7 +3,12 @@ title: Office 365 Usage Reports using Microsoft Graph API
 date: 2019-04-07 17:44:19
 description: This web part shows SharePoint Online, OnDrive and Outlook usage reports using SPFX and Microsoft Graph API
 tags: [SPFX, Microsoft Graph, Charts]
-category:
+categories: Microsoft Graph
+summary: Here is another SPFX web part which produces Office 365 usages reports (SharePoint Online, OneDrive and Outlook) using Microsoft Graph API.
+img: /images/post/spfx-office365-reports.jpg
+cover: true
+coverImg: /images/postcover/postcover-3.jpg
+
 ---
 Here is another SPFX web part which produces Office 365 usages reports (SharePoint Online, OneDrive and Outlook) using Microsoft Graph API.
 

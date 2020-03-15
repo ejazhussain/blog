@@ -6,7 +6,11 @@ tags:
     - Microsoft Flow
     - Workflow
     - SharePoint Online
-category:
+categories: Microsoft Flow
+summary: If you are looking to build an approval workflow using Microsoft Flow, then here are simple steps which will help you to create one.
+img: /images/post/sharepoint-approval-task-using-flow.jpg
+cover: true
+coverImg: /images/postcover/postcover-3.jpg
 ---
 
 If you are looking to build an approval workflow using Microsoft Flow, then here are simple steps which will help you to create one.

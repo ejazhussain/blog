@@ -1,9 +1,13 @@
 ---
 title: SharePoint Online Integration with Azure App Insights
 date: 2018-09-09 16:12:00
-tags: [Azure Application Insight, Azure, Analytics, SharePoint Online]
+tags: [Azure Application Insight, SharePoint Online]
 description: SharePoint Online Integration with Azure App Insights
-category:
+categories: Azure App Insights
+summary: This post detail about Azure Application Insight and how to track custom event in the page. For example, user clicking on the external link.
+img: /images/post/SharePoint-Online-Integration-with-Azure-App-Insights.png
+cover: true
+coverImg: /images/postcover/postcover-3.jpg
 
 ---
 Recently I had a chance to work on one of the project to monitor custom events from SharePoint Online pages.

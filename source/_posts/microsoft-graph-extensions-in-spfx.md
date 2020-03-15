@@ -5,8 +5,13 @@ description: Using Microsoft Graph Extension with SPFX
 tags:
      - Microsoft Graph
      - SPFX
-category:
+categories: Microsoft Graph
+summary: How to use Microsoft Graph Extensions with SPFX to provide ability for user to configure consistent UI experience across different devices.
+img: /images/post/microsoft-graph-extensions-in-spfx.jpg
+cover: true
+coverImg: /images/postcover/postcover-3.jpg
 ---
+
 
 Main aim of this post is to show how we can use Microsoft Graph Extensions with SPFX to provide ability for user to configure consistent UI experience across different devices and apps.
 

@@ -5,8 +5,8 @@
 # Site
 brand: EJAZHUSSAIN
 title: Ejaz Hussain
-subtitle: ""
-description: "I am a senior sharepoint developer focused on SharePoint, Office 365, PowerShell and Azure Technologies."
+subtitle: "SharePoint | Office 365 | Azure"
+description: "I am a sharepoint developer focused on SharePoint, Office 365, PowerShell and Azure Technologies."
 keywords:
   - Azure
   - Office 365
@@ -20,7 +20,7 @@ timezone: Europe/London
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.ejazhussain.com #http://localhost:4000/ 
+url: https://www.ejazhussain.com #http://localhost:4000/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -76,7 +76,7 @@ disqus_shortname: ejazhussain
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: ejazhussain
+theme: hexo-theme-ejazhussain
 search:
   path: search.xml
   field: post
