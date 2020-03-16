@@ -4,7 +4,7 @@ date: 2018-08-16 15:04:16
 tags: [SharePoint administration, SharePoint 2013, SharePoint 2016]
 description: Sign In As Different User In SharePoint On-prem in 2013 and 2016
 categories: SharePoint 2013
-summary: This post detail about Azure Application Insight and how to track custom event in the page. For example, user clicking on the external link.
+summary: This post describe a way to use Sign In As Different User link that used to be available in SharePoint 2010.
 img: /images/post/Sign-In-As-Different-User-In-SharePoint-2013-2016.jpg
 cover: true
 coverImg: /images/postcover/postcover-3.jpg
