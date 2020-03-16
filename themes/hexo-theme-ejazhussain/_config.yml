@@ -416,7 +416,7 @@ ribbon_dynamic:
 # sharejs
 sharejs:
   enable: true
-  sites: twitter,linkedin
+  sites: twitter
 
 # addthis
 addthis:
