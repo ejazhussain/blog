@@ -128,11 +128,8 @@ indexbtn:
 socialLink:
   github: https://github.com/ejazhussain
   email: ejazzhussain@outlook.com
-  # facebook: # https://www.facebook.com/xxx
-  twitter: https://twitter.com/EjazHussain_
-  # qq: 1181062873
-  # weibo: # https://weibo.com/xxx
-  # zhihu: # https://www.zhihu.com/xxx
+  linkedin: https://www.linkedin.com/in/ejaz-hussain-1a14ab37
+  twitter: https://twitter.com/EjazHussain_  
   # rss: true # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.

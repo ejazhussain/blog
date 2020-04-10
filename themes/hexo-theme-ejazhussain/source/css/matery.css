@@ -923,7 +923,7 @@ article .card {
 
 article .card-image {
     background-color: #222;
-    border-radius: 8px;
+    /* border-radius: 8px; */
 }
 
 article .card-image img {
