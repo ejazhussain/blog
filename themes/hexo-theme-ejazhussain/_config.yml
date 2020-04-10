@@ -302,7 +302,7 @@ verifyPassword:
 
 # Add google analytics configuration
 googleAnalytics:
-  enable: false
+  enable: true
   id: UA-69679122-1
 
 # Add baidu analytics configuration
