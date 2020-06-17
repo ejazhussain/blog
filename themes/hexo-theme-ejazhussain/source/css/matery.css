@@ -553,7 +553,7 @@ header .go-back i {
     line-height: 56px;
 }
 
-/* 背景图效果. */
+
 .bg-cover {
     position: relative;
     display: flex;
@@ -571,9 +571,9 @@ header .go-back i {
     height: 100vh;
 }
 
-.post-cover {
+/* .post-cover {
     height: 40vh !important;
-}
+} */
 
 .bg-cover:after {
     -webkit-animation: rainbow 60s infinite;

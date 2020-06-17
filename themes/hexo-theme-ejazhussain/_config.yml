@@ -105,7 +105,7 @@ video:
 
 recommend:
   enable: false
-  showTitle: true
+  showTitle: false
   useConfig: false
 
 # Configure website favicon and LOGO
