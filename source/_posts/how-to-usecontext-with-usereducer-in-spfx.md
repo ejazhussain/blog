@@ -23,10 +23,10 @@ Here are some very useful articles to read about the usage of React hooks in SPF
 3. [React Reusable Custom Hooks in SPFx](https://rabiawilliams.com/spfx/reusable-custom-hooks/) (by Rabia William)
 
 ## Summary
-This is a simple web part which shows how to make sue of **useContext** and **useReducer** hooks to retrieves contacts from the contact list and also updates a contact in the list using Fluent 
+This is a simple web part which shows how to make use of **useContext** and **useReducer** hooks to retrieves contacts from the contact list and also updates a contact in the list using Fluent 
 UI panel control. 
 
-You can share the state and dispatch from useReducer through context and access them with a hook.
+The main idea is to manage your app state globally using useReducer  and access through useContext in your child components without passing through as component props
 
 ![React hooks useReducer and useContext in SPFx](react-hooks-listitems-output.png)
 
@@ -52,7 +52,7 @@ For simplicity, we are going to create a simple reducer with two actions
 
 ### Root component
 
-In our root component, first of all, we need to initialize our initial state and then pass this initial state to useReducer hook. Which will return object containing state and dispatch?
+In our root component, first of all, we need to initialize our initial state and then pass this initial state to useReducer hook. The reducer will return an object containing state and dispatch.
 
 The state will be our app state and dispatch method will be used to perform any action within our reducer.
 
