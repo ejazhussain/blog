@@ -1,4 +1,5 @@
 
+
  /* Global base style 
  Small screen (mobile phone) style  */
 
@@ -18,14 +19,14 @@
     }
 }
 
-/*中等屏幕下(平板类)的样式*/
+
 @media only screen and (min-width: 600px) and (max-width: 992px) {
     .container {
         width: 90%;
     }
 }
 
-/*大屏幕下(桌面类)的样式*/
+
 @media only screen and (min-width: 993px) {
     .container {
         width: 90%;
@@ -48,48 +49,50 @@
 body {
     background-color: #eaeaea;
     margin: 0;
-    color: #34495e;
+    /* color: #34495e; */
+    color: #171717;
+    font-family: Segoe UI,SegoeUI,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 h1 {
     margin: 48px 0 22px -5px;
-    font-size: 2.0rem;
-    font-weight: bold;
-    line-height: 2.0rem;
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 1.3;
 }
 
 h2 {
     margin: 42px 0 18px -5px;
-    font-size: 1.8rem;
-    font-weight: bold;
-    line-height: 1.8rem;
+    font-size: 2rem;
+    font-weight: 600;   
+    line-height: 1.3;
 }
 
 h3 {
     margin: 38px 0 15px -4px;
-    font-size: 1.6rem;
-    font-weight: bold;
-    line-height: 1.7rem;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 1.3;
 }
 
 h4 {
     margin: 32px 0 12px -4px;
-    font-size: 1.45rem;
-    font-weight: bold;
-    line-height: 1.45rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.3;
 }
 
 h5 {
     margin: 28px 0 8px -4px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    line-height: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.3;
 }
 
 h6 {
     margin: 22px 0 4px -4px;
-    font-size: 1.1rem;
-    line-height: 1.1rem;
+    font-size: 1.2rem;
+    line-height: 1.3;
 }
 
 p {
@@ -263,12 +266,12 @@ mark {
 
 .bg-color {
     /* background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%); */
-    /* background-image: linear-gradient(to right, #00a78e 0%, #32dac1 100%); */
-    background-color: #42b983;
+    /* background-image: linear-gradient(to right, #00a78e 0%, #32dac1 100%); */    
+     background-color: #0f9d58; 
 }
 
 .text-color {
-    color: #0f9d58 !important;
+    color: #fff !important;
 }
 
 .white-color {
@@ -1907,7 +1910,7 @@ footer .copy-right {
     white-space: pre-wrap;
 }
 
-/*回到顶部按钮样式*/
+
 .top-scroll {
     display: none;
     position: fixed;
@@ -1919,7 +1922,8 @@ footer .copy-right {
 }
 
 .top-scroll .btn-floating {
-    background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%);
+    /* background: linear-gradient(to bottom right, #FF5E3A 0%, #FF2A68 100%); */
+    background-color: #0f9d58;
     width: 48px;
     height: 48px;
 }
@@ -2154,4 +2158,14 @@ footer .copy-right {
     height: 50px;
     padding: 0px;
     margin: 0px;
+}
+.page-section-info-icon-info{
+    color: #272822;
+    margin-left: -7px;
+    font-size: 25px;
+}
+.page-section-info-icon-warning{
+    color: #f1ac19;
+    margin-left: -7px;
+    font-size: 25px;
 }
