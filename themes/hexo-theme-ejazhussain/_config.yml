@@ -421,14 +421,14 @@ addthis:
   pubid:
 
 subtitle:
-  enable: true
-  loop: true
+  enable: false
+  loop: false
   showCursor: true
   startDelay: 300 #
   typeSpeed: 100
   backSpeed: 50
-  sub1: I am a sharepoint developer focused on SharePoint, Office 365, PowerShell and Azure Technologies
-  #sub2: 
+  sub1: 
+  sub2: I am a developer particular focus on SharePoint, Office 365, and Azure
 
 navMenu:
   mleft: false
